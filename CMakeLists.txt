@@ -50,6 +50,7 @@ add_library(muparser
     src/muParserCallback.cpp
     src/muParser.cpp
     src/muParserDLL.cpp
+    src/muParserNETDLL.cpp
     src/muParserError.cpp
     src/muParserInt.cpp
     src/muParserTest.cpp
@@ -104,6 +105,7 @@ install(FILES
     include/muParserCallback.h
     include/muParserDef.h
     include/muParserDLL.h
+    include/muParserNETDLL.h
     include/muParserError.h
     include/muParserFixes.h
     include/muParser.h
